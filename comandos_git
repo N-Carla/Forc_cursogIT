@@ -16,4 +16,5 @@ fLUXO DE TRABALHO
 8. git log ( para ver o que foi comitado)
 9. git diff -> o que mudei no ultimo, estado atual
 10. git diff . -> para cada arquivo
+11. git reset nome -> volta antes do commit
 
