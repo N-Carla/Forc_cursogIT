@@ -19,6 +19,9 @@ fLUXO DE TRABALHO
 10. git diff . -> para cada arquivo
 11. git reset nome -> volta antes do commit
 
+
+Branch
+
 12. git checkout main ou outra branch -> caminhar pelas branches
 13. git branch -D e o nome -> apaga 
 a ideia é...trabalhei numa seucundária e depois não preciso mais dele, pois antes eu mesclei, trouxe tudo para a principal por exemplo.
