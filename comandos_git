@@ -32,15 +32,45 @@ xxxx
 16. git branch -> lista as branchs
 
 
-GitHub
+==============================================
+## Git fluxo de trabalho LOCAL
+1. git clone <end. do projeto>
+1.  git checkout -b <nova branch 
+2. cria ou atualiza arquivos
+3. git status
+4. git add .
+5 .git status
+6. git commit -m "mensagem"
+git push origin <nova branch>
+abrir pull request no GitHub para main
+excluir <novabranch> origin
+7. git checkout main
+8. git merge nova_branch
 
-17. git push -u origin main - Leva para o remoto
-18. git pull -u origin main - Traz do remoto(origem) para local
-19. leva para local com pull
+## GitHub fluxo de trabalho no LOCAL (projeto próprio ou não)
+1. forc do projeto para seu próprio github
+1.  git clone <endereço do projeto> 
+2. git checkout -b <nova branch>
+3. atualiza arquivos
+4. git status
+4. git add <arquivo>
+5 .git status
+6. git commit -m "mensagem"
+7. git push origin <nova branch>
+8. abrir pull request no GitHub para main
+10. excluir <novabranch> origin
+11 git checkuont main
+12 git branch -D <nova branch>
+==============================================
+
+
+
+
 
 Caso especial: branch de outro fork
 git remote add upstream https://github.com/USUARIO/REPO.git
 git fetch upstream
 git switch -c branch_nome upstream/branch_nome
+
 
 
